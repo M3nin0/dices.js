@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dices.js</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body class="background">
+    <div class="texto-centro">
+      <h4> Selecione o dado que deseja utilizar </h4>
+    </div>
+    <div class="centro">
+      <form action="" method="post">
+        <label>
+          <input type="checkbox" name="dado[10]" value="10">D10
+          <input type="checkbox" name="dado[20]" value="20" checked>D20
+          <input type="checkbox" name="dado[100]" value="100">D100
+        </label>
+        <button class="button-black" type="submit">Rolar os dados</button>
+      </form>
+      <h4> O valor do dado é </h4>
+    </div>
+    <div class="result">
+      <strong><%- value %><strong>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+.background{
+
+  background-color: #faf0f4;
+
+}
+
+.centro {
+    width:500px;
+    height:160px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-150px;
+    margin-left:-100px;
+}
+
+.texto-centro {
+  width:500px;
+  height:160px;
+  position:absolute;
+  top:40%;
+  left:50%;
+  margin-top:-150px;
+  margin-left:-170px;
+}
+
+.result{
+
+  width:500px;
+  height:160px;
+  position:absolute;
+  top:50%;
+  left:59%;
+  margin-top:50px;
+  margin-left:-170px;
+}
+
+.button-black {
+  background-color: black;
+  border-color: black;
+}
